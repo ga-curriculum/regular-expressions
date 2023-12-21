@@ -1,4 +1,4 @@
-# ![[tktk Module Name]](./assets/tktk-hero.png)
+# ![RegEx](./assets/tktk-hero.png)
 
 ## About
 
@@ -14,18 +14,20 @@ tktk Write a short but descriptive summary of the content in this module.
 
 | Lesson | Video Time | Video | Skills |
 | ------ |:----------:|:-----:| ------ |
-| [tktk Microlesson Name](./tktk-microlesson-01/README.md) | -- | -- | tktk skills covered |
-| [tktk Microlesson Name](./tktk-microlesson-02/README.md) | -- | -- | tktk skills covered |
-| [tktk Microlesson Name](./tktk-microlesson-03/README.md) | -- | -- | tktk skills covered |
+| [Concepts](./tktk-microlesson-01/README.md) | -- | -- | tktk skills covered |
+| [Validating Text](./tktk-microlesson-02/README.md) | -- | -- | tktk skills covered |
+| [Quantifiers](./tktk-microlesson-02/README.md) | -- | -- | tktk skills covered |
+| [Regex in JavaScript](./tktk-microlesson-02/README.md) | -- | -- | tktk skills covered |
 | **Total content**                                        | -- | -- |                     |
 
 ## Level Up content
 
 | Lesson | Video Time | Video | Skills |
 | ------ |:----------:|:-----:| ------ |
-| [tktk Level Up Microlesson Name](./level-up/tktk-microlesson-01.md) | -- | -- | tktk skills covered |
-| [tktk Level Up Microlesson Name](./level-up/tktk-microlesson-02.md) | -- | -- | tktk skills covered |
-| [tktk Level Up Microlesson Name](./level-up/tktk-microlesson-03.md) | -- | -- | tktk skills covered |
+| [Alternation](./level-up/tktk-microlesson-01.md) | -- | -- | tktk skills covered |
+| [Grouping](./level-up/tktk-microlesson-02.md) | -- | -- | tktk skills covered |
+| [Capturing](./level-up/tktk-microlesson-03.md) | -- | -- | tktk skills covered |
+| [Anchors and Boundaries](./level-up/tktk-microlesson-03.md) | -- | -- | tktk skills covered |
 | **Total Level Up content**                                          | -- | -- |                     |
 
 ## References
