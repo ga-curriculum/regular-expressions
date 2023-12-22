@@ -2,7 +2,7 @@
 
 **Learning objective:** By the end of this lesson, students will understand the purpose of the alternation operator in regular expressions.
 
-# What is alternation?
+## What is alternation?
 
 Alternation allows us to search for one of several characters or words. It can be useful when you have multiple valid options that might be present in a string.
 
