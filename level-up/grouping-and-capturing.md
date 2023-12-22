@@ -2,7 +2,7 @@
 
 **Learning objective:** By the end of this lesson, students will understand the benefits of grouping and capturing in regular expressions.
 
-# What is grouping?
+## What is grouping?
 
 Grouping in regex involves the use of parentheses to treat multiple characters as a single unit. Parentheses are used to create groups that can then have a quantifier applied to the group. Whereas the square brackets character class, `[]`, represents a **single** character to match, the parentheses `()` represent a **group** of characters to match.
 
