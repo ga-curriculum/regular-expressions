@@ -2,7 +2,7 @@
 
 **Learning objective:** By the end of this lesson, students will understand how to apply regular expressions to HTML5 `<input>` elements for text validation.
 
-# Validating text in an `<input>`
+## Validating text in an `<input>`
 
 Let’s take a look at an everyday, practical use for regular expressions - one that you can start applying to your apps immediately.
 

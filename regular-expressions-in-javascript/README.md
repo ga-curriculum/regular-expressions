@@ -2,7 +2,7 @@
 
 **Learning objective:** By the end of this lesson, students will be able apply regular expressions in JavaScript.
 
-# Regular expressions in JavaScript
+## Regular expressions in JavaScript
 
 Before we begin to work with more complex regular expressions, let’s learn how they can be applied using JavaScript.
 

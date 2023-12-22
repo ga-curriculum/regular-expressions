@@ -2,7 +2,7 @@
 
 **Learning objective:** By the end of this lesson, students will understand the role of regular expressions in programming.
 
-## What are RegEx?
+## What are regular expressions?
 
 RegEx, short for regular expression, is a **sequence of characters** that defines a pattern used to match and manipulate text in strings. 
 
