@@ -2,7 +2,7 @@
 
 ## About
 
-tktk Write a short but descriptive summary of the content in this module.
+This module provides an overview of RegEx patterns and their application in HTML5 and JavaScript environments.
 
 ## Prerequisites
 
@@ -14,21 +14,20 @@ tktk Write a short but descriptive summary of the content in this module.
 
 | Lesson | Video Time | Video | Skills |
 | ------ |:----------:|:-----:| ------ |
-| [Setup](./tktk-microlesson-01/README.md) | -- | -- | tktk skills covered |
-| [Concepts](./tktk-microlesson-01/README.md) | -- | -- | tktk skills covered |
-| [Validating Text](./tktk-microlesson-02/README.md) | -- | -- | tktk skills covered |
-| [Quantifiers](./tktk-microlesson-02/README.md) | -- | -- | tktk skills covered |
-| [Regular Expressions in JavaScript](./tktk-microlesson-02/README.md) | -- | -- | tktk skills covered |
+| [Setup](./setup/README.md) | -- | -- | Setting up the development environment |
+| [Concepts](./concepts/README.md) | -- | -- | Understanding the role of regular expressions in programming |
+| [Validating Text](./validating-text/README.md) | -- | -- | Validating text in HTML5 `<input>` elements with regular expressions |
+| [Quantifiers](./quantifiers/README.md) | -- | -- | Understanding the use cases for regex quantifiers |
+| [Regular Expressions in JavaScript](./regular-expressions-in-javascript/README.md) | -- | -- | Applying regular expressions in JavaScript |
 | **Total content**                                        | -- | -- |                     |
 
 ## Level Up content
 
 | Lesson | Video Time | Video | Skills |
 | ------ |:----------:|:-----:| ------ |
-| [Alternation](./level-up/tktk-microlesson-01.md) | -- | -- | tktk skills covered |
-| [Grouping](./level-up/tktk-microlesson-02.md) | -- | -- | tktk skills covered |
-| [Capturing](./level-up/tktk-microlesson-03.md) | -- | -- | tktk skills covered |
-| [Anchors and Boundaries](./level-up/tktk-microlesson-03.md) | -- | -- | tktk skills covered |
+| [Alternation](./level-up/alternation.md) | -- | -- | Understanding alternation in regular expressions |
+| [Grouping and Capturing](./level-up/grouping-and-capturing.md) | -- | -- | Understanding the benefits of grouping and capturing in regular expressions |
+| [Anchors and Boundaries](./level-up/anchors-and-boundaries.md) | -- | -- | Understanding the benefits of anchors and boundaries for more precise pattern matching |
 | **Total Level Up content**                                          | -- | -- |                     |
 
 ## References
@@ -54,32 +53,3 @@ tktk If there is not a deployed site related to this module this section and all
 ---
 
 **Find a 👾 bug 👾 or have suggestions? [Let us know](https://git.generalassemb.ly/modular-curriculum-all-courses/universal-resources-internal/blob/main/module-feedback.md)!**
-
-
-
-
-Concepts
-  What are regular expressions?
-  Regular expression patterns
-
-Validating Text
-  Patterns - Literal Characters
-  Patterns - Character Class
-  Negated Character Class
-  Shorthand Character Classes
-  Negating Shorthand Character Classes
-
-Quantifiers
-  What are quantifiers?
-  Kinds of quantifiers
-
-Regex in JavaScript
-  Literal Syntax
-  JavaScript Methods Using Regular Expressions
-  Escaping Special Characters
-
-Level Ups
-  Alternation
-  Grouping
-  Capturing
-  Anchors and Boundaries

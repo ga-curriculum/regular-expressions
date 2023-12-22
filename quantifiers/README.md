@@ -1,65 +1,71 @@
 # ![RegEx - Quantifiers](./assets/hero.png)
 
-**Learning objective:** By the end of this lesson, students will be able to tktk
+**Learning objective:** By the end of this lesson, students will understand the use cases for regex quantifiers.
 
 ## What are quantifiers?
 
-In the previous exercise/solution, we repeated the same character classes when we wanted to match more than one. Well, there’s a better way: using **quantifiers**.
+In regex, quantifiers are special symbols or characters used to specify how many times a particular element should appear in a match. 
 
 There are four different quantifiers:
 
-- **`{}`**
-- `*`
-- **`+`**
-- **`?`**
+1. **`{}`**: Sets a specific number or range of repetitions for the element that precedes it.
+2. **`*`**: Matches the preceding element zero or more times.
+3. **`+`**: Ensures the preceding element appears one or more times.
+4. **`?`**: Indicates the preceding element may appear zero or one time, making it optional.
 
-Let’s see how they work.
+## The `{}` operator
 
-## Quantifiers - `{}`
+Let's dive a bit deeper into the `{}` quantifier. These curly braces are used to specify the number of repetitions the preceding element should have in a string.
 
-We use curly braces to specify a specific quantity or range of quantities, to repeat a literal character, character class, etc.
+Take a look at the example below:
 
-- For example, `\d{3}` would match three digits.
+```javascript
+\d{3}
+```
 
-**What regex pattern could you use to match a social security number with this format:
-`###-##-####`**
+Let's break down what we have here:
 
-We can also specify a range like `[A-Z]{1,5}`, which would match between 1 and 5 capital letters.
+- `\d`: This is a regex character class that matches any digit (0-9).
+- `{3}` The use of the `{3}` directly following `\d` specifies that **exactly three digits in a row** should be matched.
 
-- A range from a number to infinity can be created by leaving off the second number, such as this `{5,}`.
+The `\d{3}` regex pattern will match any sequence of exactly three digits, like "123", "456", or "789". It will not accept sequences with more or less than three digits. This makes it useful for matching sequences of numbers, like an area code in a phone number.
 
-Note that regular expressions by default are “greedy”; that is, they will match as many characters as possible (longest possible match).
+> 🚨 Note that regular expressions by default are “greedy”; that is, they will match as many characters as possible (longest possible match).
 
-## Other Quantifiers
+## Implementing a quantifier
 
-In addition to the `{min,max}` quantifier, there are repetition operators:
+Let's see how a quantifier can be applied in a real world scenario. We'll create a pattern that matches a street address.
 
-- `*` - the star symbol will match the preceding character class zero or more times.
-- **`+`** - the plus symbol will match the preceding character class one or more times.
-- **`?`** - the question mark will match the preceding character class zero or one time.
+The street address should adhere to the following structure:
 
-<aside>
-❓ What are **the curly brace equivalents for each of the above repetition operators (`*`, `+`, and `?`)**
-
-</aside>
-
-## You Do (5 mins) 💪
-
-With your group:
-
-**Write a pattern that would match a street address where the address:** 
-
-- **Starts with 1 to 5 digits (no leading zero)**
+- **Start with 1 to 5 digits (no leading zero)**
 - **Followed by a space**
 - **Followed by a street name beginning with a capital letter, then 1-n characters, including spaces.**
 
-For example, this text would be a match:`123 Main Street`
+For example, a string reading `123 Main Street` would be considered a match.
 
-A solution is provided below, but try struggling with it together!
+Update your `<form>` in `index.html` with the following:
 
-- Solution
-    
-    ```
-    [1-9][0-9]{0,4} [A-Z].+
-    ```
-    
+```html
+<body>
+
+  <form>
+    <input 
+      type="text" 
+      pattern="[1-9][0-9]{0,4} [A-Z][a-z]+"
+      placeholder="Enter a valid street address"
+    >
+    <button>Submit</button>
+  </form>
+
+</body>
+```
+
+Let's breakdown the code above:
+
+- **`[1-9]`**: Matches the first digit of the street number, requiring it to be something other than `0`.
+- **`[0-9]{0,4}`**: Matches up to four additional digits, making the total number of digits in the street number between one and five.
+- **` `**: Requires there to be a space after the street number.
+- **`[A-Z]`**: Requires the street name to start with a capital letter.
+- **`[a-z]`**: Requires character following the first letter of the street name to be lower case.
+- **`+`**: Requires that the preceding lower case character appears one or more times in the string.

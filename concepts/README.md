@@ -1,25 +1,23 @@
 # ![RegEx - Concepts](./assets/hero.png)
 
-**Learning objective:** By the end of this lesson, students will be able to tktk
+**Learning objective:** By the end of this lesson, students will understand the role of regular expressions in programming.
 
-## What are Regular Expressions?
+## What are RegEx?
 
-A **sequence of characters** that define a pattern used to search/match, and optionally replace, text in strings and files.
+RegEx, short for regular expression, is a **sequence of characters** that defines a pattern used to match and manipulate text in strings. 
 
-Grounded in Computer Science and used throughout computing by: 
+RegEx is the standard approach for pattern matching, used across a variety of programming languages. It is commonly used to facilitate the functionality of word processors, text editors, and search engines. RegEx patterns can even be used for things like web scraping and validation.
 
-- Programming languages
-- Word processors & text editors
-- System utilities like Unix’s `grep`
+RegEx is a powerful tool that may appear complex at first, but it's incredibly useful for a wide range of tasks.
 
-They are even handy for things like web scraping and validation! They're so comprehensive that they are their own computer language. 
+# Regular expression patterns
 
-# Regular Expression patterns
+Let's take a look at a real-world example of a regex pattern. 
 
-To get orientated, this is what a regular expression to match/validate a typical 10-digit phone number like `(310) 555-1212` looks like in JavaScript:
+Imagine your application needs an expression to match/validate a typical 10-digit phone number like `(310) 555-1212`. 
 
-```jsx
+Here is an example of how that regex pattern could be implemented in JavaScript:
+
+```javascript
 /^\(\d{3}\)\s\d{3}-\d{4}$/
 ```
-
-Crazy looking stuff - yes? Don’t sweat it. By the end of the lesson, this gibberish will all make sense.
