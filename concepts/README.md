@@ -19,7 +19,7 @@ Imagine your application needs an expression to match/validate a typical 10-digi
 Here is an example of how that regex pattern could be implemented in JavaScript:
 
 ```javascript
-/^\(\d{3}\)\s\d{3}-\d{4}$/
+/\(\d{3}\) \d{3}-\d{4}/
 ```
 
 Don't worry if this looks overwhelming or indecipherable! It'll start to make more sense as we dive into some of the basic patterns.
