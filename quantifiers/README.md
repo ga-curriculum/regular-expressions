@@ -69,3 +69,5 @@ Let's breakdown the code above:
 - **`[A-Z]`**: Requires the street name to start with a capital letter.
 - **`[a-z]`**: Requires character following the first letter of the street name to be lower case.
 - **`+`**: Requires that the preceding lower case character appears one or more times in the string.
+
+All of these individual character classes and quantifiers are concatenated to form a single pattern that the input must adhere to. 
