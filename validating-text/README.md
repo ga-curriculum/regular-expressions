@@ -78,7 +78,7 @@ Here are some other useful shorthand character classes:
 
 ### Negating shorthand character classes
 
-Interestingly, the uppercase versions of the previous shorthands match just the opposite of the lowercase versions:
+Interestingly, the uppercase versions of the previous shorthands match the opposite of the lowercase versions:
 
 - **`\D`** will match any character except a digit.
 - **`\W`** will match anything but an alphanumeric character (and underscore).
