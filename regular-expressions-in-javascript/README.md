@@ -32,7 +32,7 @@ re.test('fatcat');   // returns true
 
 ## Implementing regular expressions in JavaScript
 
-Let's create a regex object to match a phone numbers. 
+Let's return to an example we used earlier, and create a regex object to match a phone number. 
 
 The phone numbers should adhere to the following format:
 

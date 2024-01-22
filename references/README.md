@@ -15,5 +15,3 @@
 ## Level Up references
 
 - [Capturing Groups](https://javascript.info/regexp-groups)
-- [tktk descriptive name of link]()
-- [tktk descriptive name of link]()

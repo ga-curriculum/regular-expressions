@@ -9,11 +9,11 @@ Anchors and boundaries are unique because they don’t match a character; instea
 - **`^`**: This symbol is used to match the start of the line. This is very useful for processing a file containing multiple lines.
 - **`$`**: This symbol matches the end of the line.
 
-Without boundaries, the regex `/dog/` will return *true* when tested against any of these strings: “dog”, “dogs”, and “My dog is named Spot”. However, the regex `/^dog$/` will match only the string “dog” and when there is no other text in the line.
+Without boundaries, the regex `/dog/` will return *true* when tested against any of these strings: “dog”, “dogs”, and “My dog is named Spot”. However, the regex `/^dog$/` will match only the string “dog” when there is no other text in the line.
 
 ## Implementing anchors and boundaries
 
-Let’s test the pattern, `cat`, with anchors (`/^cat$/`), and without (`/cat/`), against the strings “cat” and “catsup”.
+Let’s test the pattern `cat` with anchors (`/^cat$/`), and without (`/cat/`), against the strings “cat” and “catsup”.
 
 There is also `\b`, which matches a position called a *word boundary*. For example, `\b` will match any of the following:
 
@@ -21,7 +21,7 @@ There is also `\b`, which matches a position called a *word boundary*. For examp
 - After the last character in the string.
 - Between two characters in the string where one character is a word character, and the other is a non-word character such as a space, tab, or newline.
 
-The `\b` allows us to search for whole words only. 
+`\b` allows us to search for whole words only. 
 
 Let's see how we could use the string `match()` method to return the matches by passing in a regex.
 
