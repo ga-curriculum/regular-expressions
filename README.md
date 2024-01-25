@@ -4,10 +4,6 @@
 
 This module provides an overview of RegEx patterns and their application in HTML5 and JavaScript environments.
 
-## Prerequisites
-
-- tktk
-
 ## Content
 
 | Lesson | Video Time | Video | Skills |
