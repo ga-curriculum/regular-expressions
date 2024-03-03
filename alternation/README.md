@@ -1,4 +1,4 @@
-# ![Regex - Alternation](./assets/hero.png)
+# ![Regular Expressions - Alternation](./assets/hero.png)
 
 **Learning objective:** By the end of this lesson, students will understand the purpose of the alternation operator in regular expressions.
 

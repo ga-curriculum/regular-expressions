@@ -1,4 +1,4 @@
-# ![ - Level Up - Anchors and Boundaries](./assets/hero.png)
+# ![Regular Expressions - Anchors and Boundaries](./assets/hero.png)
 
 **Learning objective:** By the end of this lesson, students will understand the benefits of anchors and boundaries for more precise pattern matching.
 

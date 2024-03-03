@@ -1,4 +1,4 @@
-# ![Regular Expressions - Used in JavaScript](./assets/hero.png)
+# ![Regular Expressions - Using Regex in JavaScript](./assets/hero.png)
 
 **Learning objective:** By the end of this lesson, students will be able to apply regular expressions in JavaScript.
 

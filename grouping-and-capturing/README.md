@@ -1,4 +1,4 @@
-# ![Regex - Grouping and Capturing](./assets/hero.png)
+# ![Regular Expressions - Grouping and Capturing](./assets/hero.png)
 
 **Learning objective:** By the end of this lesson, students will understand the benefits of grouping and capturing in regular expressions.
 
