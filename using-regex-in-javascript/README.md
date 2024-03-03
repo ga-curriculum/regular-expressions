@@ -24,8 +24,8 @@ const regex = new RegExp(str);
 A regex object has a `test()` method that returns `true` if there is at least one match:
 
 ```javascript
-console.log(regexLiteral.test('fatcat')); // prints: true
-console.log(regex.test('fatcat')); // prints: false
+console.log(regexLiteral.test('fatcat')); // Prints: true
+console.log(regex.test('fatcat')); // Prints: false
 ```
 
 ## Implementing regular expressions in JavaScript
@@ -47,7 +47,7 @@ const phoneNumRegex = /\(\d{3}\) \d{3}-\d{4}/;
 Next, use the `test()` method to test out some phone numbers:
 
 ```javascript
-console.log(phoneNumRegex.test('(800) 222-5555')); // prints: true
+console.log(phoneNumRegex.test('(800) 222-5555')); // Prints: true
 ```
 
 > 💡 Notice the use of backslashes to escape special characters in our regex.
