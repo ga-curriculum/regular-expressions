@@ -1,4 +1,4 @@
-# ![RegEx - Setup](./assets/hero.png)
+# ![Regular Expressions - Setup](./assets/hero.png)
 
 ## Setup
 
@@ -15,16 +15,16 @@ mkdir regex
 cd regex
 ```
 
-Create a directory called `js`:
+Create two directories - one called `js`, the other called `css`:
 
 ```bash
-mkdir js
+mkdir js css
 ```
 
-Then, create an `index.html` file, as well as a `app.js` file inside the `js` directory. These files will hold your work for this lecture:
+Then, create an `index.html` file, a `style.css` file inside of the `css` directory, as well as a `app.js` file inside the `js` directory. These files will hold your work for this lecture:
 
 ```bash
-touch index.html ./js/app.js
+touch index.html ./js/app.js ./css/style.css
 ```
 
 With the files created, open the contents of the directory in VS Code:
@@ -33,20 +33,39 @@ With the files created, open the contents of the directory in VS Code:
 code .
 ```
 
-Open the `index.html` file and add HTML boilerplate by typing `!` and then hitting the `Tab` key. Then link the `app.js` file inside of the `js` directory by adding this line inside the `<head>` tag:
+Open the `index.html` file and add HTML boilerplate by typing `!` and then hitting the `Tab` key. Then link the `app.js` file inside of the `js` directory and the `style.css` file inside of the `css` directory by adding these line inside the `<head>` tag:
 
 ```html
+<link rel="stylesheet" href="./css/style.css"/>
 <script defer src="./js/app.js"></script>
 ```
 
-With this setup complete, we'll have two methods at our disposal for executing the code we write in `app.js`:
+Open the `/css/style.css` file and add this code to assist in visually validating our work in this app:
 
-- Open the `index.html` file in your browser and access the console output in your browser's dev tools.
+```css
+body {
+  background-color: #101720;
+}
 
-- Use node to execute the `app.js` file directly by using this command in your terminal:
+form {
+  padding: 50px;
+  border: 4px solid lightgreen;
+  border-radius: 20px;
+}
 
-```bash
-node app.js
+input {
+  font-size: 18px;
+  padding: 8px 12px;
+  border-width: 8px;
+}
+
+form:invalid {
+  border-color: yellow;
+}
+
+input:invalid {
+  border-color: red;
+}
 ```
 
-While either method is acceptable, you should use the same method as your instructor for simplicity.
+With this setup complete, open the `index.html` file in your browser.

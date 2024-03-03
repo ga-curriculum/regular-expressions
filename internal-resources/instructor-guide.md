@@ -1,6 +1,16 @@
 # ![Instructor Guide](../assets/instructor-guide.png)
 
-tktk Information to help instructors deliver this content should be added here. This file should not be removed, even if there is no content to place here immediately, and the following content should be retained regardless of how much content is in this file.
+## You Do solutions
+
+These are some potential solutions to the You Do exercises in this lecture.
+
+### Validating Text You Do
+
+Solution: `File [A-Z][A-Z]-[1-9][0-9][0-9]`
+
+## Working with Special Characters You Do
+
+Solution: `\d+\.\d+`
 
 ---
 
