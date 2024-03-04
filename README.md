@@ -1,4 +1,4 @@
-# ![Regular Expressions](./assets/tktk-hero.png)
+# ![Regular Expressions](./assets/hero.png)
 
 ## About
 
