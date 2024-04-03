@@ -2,7 +2,7 @@
 
 ## About
 
-This module provides an overview of Regular Expression patterns and their application in HTML and JavaScript environments.
+This module provides an overview of Regular Expression (regex) patterns and their application in HTML and JavaScript environments.
 
 ## Content
 
