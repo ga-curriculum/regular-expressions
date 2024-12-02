@@ -1,4 +1,7 @@
-# ![Regular Expressions](../assets/hero.png)
+<h1>
+  <span class="prefix"></span>
+  <span class="headline">Regular Expressions</span>
+</h1>
 
 ## About
 
@@ -6,8 +9,8 @@ This module provides an overview of Regular Expression (regex) patterns and thei
 
 ## Content
 
-| Lesson | Skills |
-| ------ | ------ |
+| Lesson                                                                          | Skills                                                  |
+| ------------------------------------------------------------------------------- | ------------------------------------------------------- |
 | [Setup](../setup/README.md)                                                     | Set up the development environment.                     |
 | [Concepts](../concepts/README.md)                                               | Understand the role of regex in programming.            |
 | [Validating Text](../validating-text/README.md)                                 | Validate text in HTML `<input>` elements with regex.    |
@@ -17,8 +20,8 @@ This module provides an overview of Regular Expression (regex) patterns and thei
 
 ## Level Up content
 
-| Lesson | Skills |
-| ------ | ------ |
+| Lesson                                                        | Skills                                                          |
+| ------------------------------------------------------------- | --------------------------------------------------------------- |
 | [Alternation](../alternation/README.md)                       | Understand alternation in regex.                                |
 | [Grouping and Capturing](../grouping-and-capturing/README.md) | Understand the benefits of grouping and capturing in regex.     |
 | [Anchors and Boundaries](../anchors-and-boundaries/README.md) | Apply anchors and boundaries for more precise pattern matching. |

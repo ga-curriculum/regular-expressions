@@ -1,4 +1,7 @@
-# ![Regular Expressions - Grouping and Capturing](./assets/hero.png)
+<h1>
+  <span class="headline">Regular Expressions</span>
+  <span class="subhead">Grouping and Capturing</span>
+</h1>
 
 **Learning objective:** By the end of this lesson, students will understand the benefits of grouping and capturing in regular expressions.
 

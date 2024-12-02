@@ -1,4 +1,7 @@
-# ![Regex - References](./assets/hero.png)
+<h1>
+  <span class="headline">Regular Expressions</span>
+  <span class="subhead">References</span>
+</h1>
 
 ## Lesson references
 

@@ -1,4 +1,7 @@
-# ![Regular Expressions - Validating Text](./assets/hero.png)
+<h1>
+  <span class="headline">Regular Expressions</span>
+  <span class="subhead">Validating Text</span>
+</h1>
 
 **Learning objective:** By the end of this lesson, students will understand how to apply regular expressions to HTML `<input>` elements for text validation.
 

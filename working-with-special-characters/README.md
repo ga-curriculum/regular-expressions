@@ -1,4 +1,7 @@
-# ![Regular Expressions - Working with Special Characters](./assets/hero.png)
+<h1>
+  <span class="headline">Regular Expressions</span>
+  <span class="subhead">Working with Special Characters</span>
+</h1>
 
 **Learning objective:** By the end of this lesson, students will understand how to use special characters as text within regular expressions.
 

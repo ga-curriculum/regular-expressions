@@ -1,4 +1,7 @@
-# ![Regular Expressions - Using Regex in JavaScript](./assets/hero.png)
+<h1>
+  <span class="headline">Regular Expressions</span>
+  <span class="subhead">Using Regex in JavaScript</span>
+</h1>
 
 **Learning objective:** By the end of this lesson, students will be able to apply regular expressions in JavaScript.
 

@@ -1,4 +1,7 @@
-# ![Regular Expressions - Anchors and Boundaries](./assets/hero.png)
+<h1>
+  <span class="headline">Regular Expressions</span>
+  <span class="subhead">Anchors and Boundaries</span>
+</h1>
 
 **Learning objective:** By the end of this lesson, students will understand the benefits of anchors and boundaries for more precise pattern matching.
 

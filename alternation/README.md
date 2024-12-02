@@ -1,4 +1,7 @@
-# ![Regular Expressions - Alternation](./assets/hero.png)
+<h1>
+  <span class="headline">Regular Expressions</span>
+  <span class="subhead">Alternation</span>
+</h1>
 
 **Learning objective:** By the end of this lesson, students will understand the purpose of the alternation operator in regular expressions.
 
